@@ -1,4 +1,10 @@
-if getgenv().key ~= "VWweaCuMUFavHVIVHrtOYAEsSUEDsORF" then return end
+local KEY = "VWweaCuMUFavHVIVHrtOYAEsSUEDsORF"
+
+local userKey = getgenv().key
+if not userKey or userKey ~= KEY then
+    warn("YOU ARE KNUR")
+    return
+end
 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
