@@ -1,5 +1,4 @@
-local key = "VWweaCuMUFavHVIVHrtOYAEsSUEDsORF"
-if key ~= "VWweaCuMUFavHVIVHrtOYAEsSUEDsORF" then return end
+if getgenv().key ~= "VWweaCuMUFavHVIVHrtOYAEsSUEDsORF" then return end
 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
